@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name HT7133-1)(type Legacy)(uri C:/Users/aguir/Documents/CESE/DCI/HC-SR501/myLib/HT7133-1.lib)(options "")(descr ""))
+  (lib (name IRA-S210ST01)(type Legacy)(uri C:/Users/aguir/Documents/CESE/DCI/HC-SR501/myLib/IRA-S210ST01.lib)(options "")(descr ""))
+)
