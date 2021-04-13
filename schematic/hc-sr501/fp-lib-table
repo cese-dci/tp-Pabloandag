@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name myLib)(type KiCad)(uri C:/Users/aguir/Documents/CESE/DCI/Proyectos/tp-Pabloandag/myLib)(options "")(descr ""))
+)
