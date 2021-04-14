@@ -1,5 +1,6 @@
 (sym_lib_table
-  (lib (name HT7133-1)(type Legacy)(uri C:/Users/aguir/Documents/CESE/DCI/Proyectos/tp-Pabloandag/myLib/HT7133-1.lib)(options "")(descr ""))
-  (lib (name IRA-S210ST01)(type Legacy)(uri C:/Users/aguir/Documents/CESE/DCI/Proyectos/tp-Pabloandag/myLib/IRA-S210ST01.lib)(options "")(descr ""))
+  (lib (name HT7133-1)(type Legacy)(uri ${KIPRJMOD}/libreria/HT7133-1.lib)(options "")(descr ""))
+  (lib (name IRA-S210ST01)(type Legacy)(uri ${KIPRJMOD}/libreria/IRA-S210ST01.lib)(options "")(descr ""))
   (lib (name hc-sr501-rescue)(type Legacy)(uri ${KIPRJMOD}/hc-sr501-rescue.lib)(options "")(descr ""))
+  (lib (name BISS0001)(type Legacy)(uri ${KIPRJMOD}/libreria/BISS0001.lib)(options "")(descr ""))
 )
