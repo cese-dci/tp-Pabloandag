@@ -1,8 +1,0 @@
-EESchema-DOCLIB  Version 2.0
-#
-$CMP HT7133-1
-D Three-terminal low power high voltage regulator. Vout=3.3V
-F https://www.holtek.com/documents/10179/116711/HT71xx-1v250.pdf
-$ENDCMP
-#
-#End Doc Library
