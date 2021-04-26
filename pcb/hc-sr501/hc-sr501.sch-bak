@@ -223,9 +223,9 @@ U 1 1 6069AEBC
 P 9600 5100
 F 0 "RV2" H 9530 5054 50  0000 R CNN
 F 1 "1M" H 9530 5145 50  0000 R CNN
-F 2 "Potentiometer_THT:Potentiometer_Bourns_3266X_Horizontal" H 9600 5100 50  0001 C CNN
-F 3 "https://www.bourns.com/data/global/pdfs/3266.pdf" H 9600 5100 50  0001 C CNN
-F 4 "3266W-101-ND" H 9600 5100 50  0001 C CNN "Digi-Key Part Number "
+F 2 "myLib:Potentiometer_Bourns_3362Z_Horizontal" H 9600 5100 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/product-datasheets/3362.pdf" H 9600 5100 50  0001 C CNN
+F 4 "3362Z-1-105-ND" H 9600 5100 50  0001 C CNN "Digi-Key Part Number "
 	1    9600 5100
 	-1   0    0    1   
 $EndComp
@@ -244,17 +244,6 @@ Wire Wire Line
 Wire Wire Line
 	8800 5450 8800 5400
 Connection ~ 8800 5450
-$Comp
-L Device:C C12
-U 1 1 606A3CBC
-P 9600 5800
-F 0 "C12" H 9715 5846 50  0000 L CNN
-F 1 "10nF" H 9715 5755 50  0000 L CNN
-F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 9638 5650 50  0001 C CNN
-F 3 "~" H 9600 5800 50  0001 C CNN
-	1    9600 5800
-	1    0    0    -1  
-$EndComp
 $Comp
 L power:GND #PWR019
 U 1 1 606A44CC
@@ -466,9 +455,9 @@ U 1 1 60685647
 P 7800 750
 F 0 "RV1" V 7600 750 50  0000 C CNN
 F 1 "1M" V 7700 750 50  0000 C CNN
-F 2 "Potentiometer_THT:Potentiometer_Bourns_3266X_Horizontal" H 7800 750 50  0001 C CNN
-F 3 "https://www.bourns.com/data/global/pdfs/3266.pdf" H 7800 750 50  0001 C CNN
-F 4 "3266W-101-ND" V 7800 750 50  0001 C CNN "Digi-Key Part Number"
+F 2 "myLib:Potentiometer_Bourns_3362Z_Horizontal" H 7800 750 50  0001 C CNN
+F 3 "https://www.bourns.com/docs/product-datasheets/3362.pdf" H 7800 750 50  0001 C CNN
+F 4 "3362Z-1-105-ND" V 7800 750 50  0001 C CNN "Digi-Key Part Number"
 	1    7800 750 
 	0    1    1    0   
 $EndComp
@@ -782,7 +771,8 @@ P 1650 1400
 F 0 "D1" V 1604 1480 50  0000 L CNN
 F 1 "1N5819" V 1695 1480 50  0000 L CNN
 F 2 "Diode_SMD:D_MiniMELF" H 1650 1400 50  0001 C CNN
-F 3 "~" H 1650 1400 50  0001 C CNN
+F 3 "https://media.digikey.com/pdf/Data%20Sheets/Diodes%20PDFs/1N5817M,5818M,5819M.pdf" H 1650 1400 50  0001 C CNN
+F 4 "1N5819MDICT-ND" V 1650 1400 50  0001 C CNN "Digi-Key Part Number"
 	1    1650 1400
 	-1   0    0    -1  
 $EndComp
@@ -1032,6 +1022,7 @@ F 0 "U1" H 2250 1642 50  0000 C CNN
 F 1 "L78L33_SOT89" H 2250 1551 50  0000 C CNN
 F 2 "Package_TO_SOT_SMD:SOT-89-3" H 2250 1600 50  0001 C CIN
 F 3 "http://www.st.com/content/ccc/resource/technical/document/datasheet/15/55/e5/aa/23/5b/43/fd/CD00000446.pdf/files/CD00000446.pdf/jcr:content/translations/en.CD00000446.pdf" H 2250 1350 50  0001 C CNN
+F 4 "497-7286-2-ND" H 2250 1400 50  0001 C CNN "Digi-Key Part Number"
 	1    2250 1400
 	1    0    0    -1  
 $EndComp
@@ -1042,23 +1033,23 @@ Wire Wire Line
 Wire Wire Line
 	2250 1700 2250 2000
 $Comp
-L Mechanical:MountingHole H?
+L Mechanical:MountingHole H5
 U 1 1 609788D6
 P 3700 1850
-F 0 "H?" H 3800 1896 50  0000 L CNN
+F 0 "H5" H 3800 1896 50  0000 L CNN
 F 1 "MountingHole" H 3800 1805 50  0000 L CNN
-F 2 "" H 3700 1850 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.1mm" H 3700 1850 50  0001 C CNN
 F 3 "~" H 3700 1850 50  0001 C CNN
 	1    3700 1850
 	1    0    0    -1  
 $EndComp
 $Comp
-L Mechanical:MountingHole H?
+L Mechanical:MountingHole H6
 U 1 1 609797D8
 P 4550 1850
-F 0 "H?" H 4650 1896 50  0000 L CNN
+F 0 "H6" H 4650 1896 50  0000 L CNN
 F 1 "MountingHole" H 4650 1805 50  0000 L CNN
-F 2 "" H 4550 1850 50  0001 C CNN
+F 2 "MountingHole:MountingHole_2.1mm" H 4550 1850 50  0001 C CNN
 F 3 "~" H 4550 1850 50  0001 C CNN
 	1    4550 1850
 	1    0    0    -1  
@@ -1067,4 +1058,15 @@ Wire Notes Line
 	3500 1150 3500 2250
 Wire Notes Line
 	5250 1150 5250 2250
+$Comp
+L Device:C C12
+U 1 1 606A3CBC
+P 9600 5800
+F 0 "C12" H 9715 5846 50  0000 L CNN
+F 1 "10nF" H 9715 5755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" H 9638 5650 50  0001 C CNN
+F 3 "~" H 9600 5800 50  0001 C CNN
+	1    9600 5800
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

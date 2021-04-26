@@ -1,4 +1,4 @@
-19085784234036294
+19087403629107765
 Battery
 BatteryHolder_Bulgin_BX0036_1xC
 Bulgin Battery Holder, BX0036, Battery Type C (https://www.bulgin.com/products/pub/media/bulgin/data/Battery_holders.pdf)
@@ -83033,6 +83033,13 @@ mounting hole 2mm no annular
 0
 0
 0
+myLib
+Potentiometer_Bourns_3362Z_Horizontal
+Potentiometer, horizontal, Bourns 3386X, https://www.bourns.com/pdfs/3386.pdf
+Potentiometer horizontal Bourns 3386X
+0
+3
+3
 myLib
 SOIC127P600X180-16N
 
